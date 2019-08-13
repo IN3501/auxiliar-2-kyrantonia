@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="utf-8">
+
+	<title>Index</title>
+</head>
+<body>
+	<div>
+		<table style="width:100%; border-bottom:1px solid black">
+			<tr>
+				<td><a href="{% url 'index' %}">Menu principal</a></td>
+				<td><a href="{% url 'integrantes' %}">Integrantes del curso</a></td>
+				<td><a href="{% url 'pestaña' %}">Pestaña libre</a></td>
+			</tr>
+		</table>
+	</div>
+<div>
+	<h1>Menu Principal</h1>
+
+	<h2><a href="{% url 'integrantes' %}">Integrantes del curso</a></h2>
+
+	<h2><a href="{% url 'pestaña' %}">Pestaña libre</a></h2>
+
+	</div>
+
+
+</body>
+</html>
